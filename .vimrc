@@ -187,7 +187,11 @@ set wildmode=list:longest,full
 set clipboard=unnamedplus
 
 " load up the nerd tree
-autocmd vimenter * NERDTree
+"autocmd vimenter * NERDTree
+
+" Map NerdTree  to Toggle on Ctrl+n
+map <C-n> :NERDTreeToggle<CR>
+
 map <Leader>t <plug>NERDTreeTabsToggle<CR>
 
 " move nerdtree to the right
