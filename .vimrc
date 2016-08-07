@@ -21,6 +21,33 @@ set bs=2 " make backspace behave like normal again
 " it is next to ``m`` and ``n`` which I use for navigating between tabs.
 let mapleader = ","
 
+"Snippets variables
+"------------------ 
+let g:snips_author='OverDueOcean'
+let g:author='OverDueOcean'
+let g:snips_email='overdueocean@gmail.com'
+let g:email='overdueocean@gmail.com'
+let g:snips_github='https://github.com/overdueocean'
+let g:github='https://github.com/overdueocean'
+
+
+" Plasticboy/Vim-markdown
+" "-------------------------
+let g:vim_markdown_folding_disabled = 1
+let g:vim_markdown_folding_style_pythonic = 1
+
+let g:vim_markdown_folding_level = 6
+
+let g:vim_markdown_toc_autofit = 1
+let g:vim_markdown_emphasis_multiline = 0
+
+set conceallevel=2
+let g:vim_markdown_fenced_languages = ['csharp=cs']
+let g:vim_markdown_math = 1
+let g:vim_markdown_frontmatter = 1
+""-------------------------
+
+
 " Bind nohl
 " Removes highlight of your last search
 " ``<C>`` stands for ``CTRL`` and therefore ``<C-n>`` stands for ``CTRL+n``

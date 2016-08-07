@@ -31,6 +31,6 @@
 [submodule "bundle/vim-snippets"]
 	path = bundle/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
-[submodule "bundle/bundle/vim-markdown"]
-	path = bundle/bundle/vim-markdown
+[submodule "bundle/vim-markdown"]
+	path = bundle/vim-markdown
 	url = https://github.com/plasticboy/vim-markdown.git
