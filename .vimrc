@@ -21,6 +21,14 @@ set bs=2 " make backspace behave like normal again
 " it is next to ``m`` and ``n`` which I use for navigating between tabs.
 let mapleader = ","
 
+"Try to disable arrow keys for navigation
+map <Left> <Nop>
+map <Right> <Nop>
+map <Up> <Nop>
+map <Down> <Nop>
+
+
+
 "Snippets variables
 "------------------ 
 let g:snips_author='OverDueOcean'
